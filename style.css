@@ -1,7 +1,7 @@
 .page {
 	width: 100vw;
 	height: 100vh;
-	background-color: #D0c684;;
+	background-color: white;
 
 }
 
@@ -11,15 +11,16 @@
 	background: repeating-linear-gradient(beige 0px, beige 20px, lightblue 20px, lightblue 22px);
 	box-shadow: 15px 10px 5px darkgray;
 	border-radius: 10px;
-	padding: 0px 15px;
+	padding: 0px 5vw;
 	color: #2b1a13;
-	border-width: 10px;
 	margin: auto;
 	transform: translateY(25%);
+	overflow-y: scroll;
 }
 
 .content div{
 	display: inline;
+
 }
 
 .top h1{
@@ -30,24 +31,42 @@
 	background-color: beige;
 	border-bottom: 2px solid red;
 	width: inherit;
+	font-family: 'Rock Salt', monospace;
+	font-style: normal;
+	font-weight: normal;
 }
 
-.mainImg img{
+.index-card a {
+	color: black;
+}
+
+.index-card a:hover {
+	font-weight: strong;
+	color: black;
+}
+
+.index-card a:visited {
+	color: black;
+	text-decoration: underline;
+}
+
+.index-card li, .index-card ul, .index-card ol {
+	margin-left: 10px;
+	vertical-align: top;
+}
+
+.index-card img {
 	float: left;
-	width: 15vw;
+	margin: 0px 30px 10px 10px;
+	width: 200px;
+	max-width: 20vw;
 }
 
-.mainContent ul{
-	float: right;
-	text-align: left;
+.index-card p, .index-card a, .index-card li {
+	font-family: 'Homemade Apple', monospace;
+	font-weight: normal;
+	font-style: normal;
 }
-
-
-
-
-
-
-
 
 
 
